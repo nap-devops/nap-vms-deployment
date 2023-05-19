@@ -1,0 +1,12 @@
+envAlias: prod
+
+visitor-management:
+  ingress:
+    enabled: true
+    service:
+      name: visitor-management-prod
+      port:
+        name: http
+
+    hosts:
+      - vms.internal.napbiotec.io

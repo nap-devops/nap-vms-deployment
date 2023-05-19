@@ -1,0 +1,12 @@
+envAlias: dev
+
+visitor-management:
+  ingress:
+    enabled: true
+    service:
+      name: visitor-management-dev
+      port:
+        name: http
+
+    hosts:
+      - vms-dev.internal.napbiotec.io
