@@ -1,0 +1,27 @@
+visitor-management:
+  enabled: true
+  nameOverride: visitor-management
+  podDisruptionBudget:
+    enabled: false
+  pods:
+    controller: deployment
+    image:
+      name: gcr.io/its-artifact-commons/visitor-management
+      tag: "will-change"
+    ports:
+      - containerPort: 443
+      - containerPort: 80
+    env:
+      - name: DUMMY_ENV
+        value: "001"
+
+  ingress:
+    enabled: false
+
+  service:
+    enabled: true
+    ports:
+      - port: 80
+        targetPort: 80
+        protocol: TCP
+        name: http
