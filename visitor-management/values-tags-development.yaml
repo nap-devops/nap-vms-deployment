@@ -1,4 +1,4 @@
 visitor-management:
   pods:
     image:
-      tag: "develop-1cd26a2"
+      tag: "main-2bcfc13"
