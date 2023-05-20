@@ -3,8 +3,9 @@ envAlias: prod
 visitor-management:
   ingress:
     enabled: true
+    ingressClassName: iap-nginx
     service:
-      name: visitor-management-prod
+      name: vms-prod-visitor-management
       port:
         name: http
 

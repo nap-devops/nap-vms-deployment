@@ -3,8 +3,9 @@ envAlias: dev
 visitor-management:
   ingress:
     enabled: true
+    ingressClassName: iap-nginx
     service:
-      name: visitor-management-dev
+      name: vms-dev-visitor-management
       port:
         name: http
 
