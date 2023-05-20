@@ -22,7 +22,7 @@ visitor-management:
         value: "http://+:80"
 
       - name: ConnectionStrings__DefaultConnection
-        value: "Server=mssql;Database=vms;User=sa;Password=a39OdPSbIya1OqocSCOr;MultipleActiveResultSets=true"
+        value: "Server=mssql;Database=vms;User=sa;Password=ZKuHQLSCdiAJPwi2cHFR;MultipleActiveResultSets=true"
 
   ingress:
     enabled: false
