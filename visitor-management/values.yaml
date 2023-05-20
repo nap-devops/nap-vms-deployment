@@ -19,7 +19,7 @@ visitor-management:
         value: "true"
 
       - name: ASPNETCORE_URLS
-        value: "https://+:443;http://+:80"
+        value: "http://+:80"
 
       - name: ConnectionStrings__DefaultConnection
         value: "Server=mssql;Database=vms;User=sa;Password=a39OdPSbIya1OqocSCOr;MultipleActiveResultSets=true"
