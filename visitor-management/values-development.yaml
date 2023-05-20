@@ -1,13 +1,2 @@
 envAlias: dev
-
-visitor-management:
-  ingress:
-    enabled: true
-    #ingressClassName: iap-nginx
-    service:
-      name: vms-dev-visitor-management
-      port:
-        name: http
-
-    hosts:
-      - temp.internal.napbiotec.io # will change to vms-dev-visitor-management
+domain: temp.internal.napbiotec.io #vms-dev.internal.napbiotec.io
