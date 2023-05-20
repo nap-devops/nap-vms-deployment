@@ -12,8 +12,17 @@ visitor-management:
       - containerPort: 443
       - containerPort: 80
     env:
-      - name: DUMMY_ENV
-        value: "001"
+      - name: ASPNETCORE_ENVIRONMENT
+        value: "Development"
+
+      - name: UseInMemoryDatabase
+        value: "true"
+
+      - name: ASPNETCORE_URLS
+        value: "https://+:443;http://+:80"
+
+      - name: ConnectionStrings__DefaultConnection
+        value: "Server=mssql;Database=vms;User=sa;Password=a39OdPSbIya1OqocSCOr;MultipleActiveResultSets=true"
 
   ingress:
     enabled: false
