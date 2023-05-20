@@ -27,8 +27,8 @@ visitor-management:
       - name: ASPNETCORE_Kestrel__Certificates__Default__Password
         value: "no-worry-for-this"
 
-      - name: ASPNETCORE_Kestrel__Certificates__Default__Path
-        value: "/root/.aspnet/https/vms.pfx"
+      #- name: ASPNETCORE_Kestrel__Certificates__Default__Path
+      #  value: "/root/.aspnet/https/vms.pfx"
 
   ingress:
     enabled: false
