@@ -22,7 +22,7 @@ visitor-management:
         value: "http://+:80"
 
       - name: ConnectionStrings__DefaultConnection
-        value: "Server=mssql;Database=vms;User=sa;Password=ZKuHQLSCdiAJPwi2cHFR;MultipleActiveResultSets=true"
+        value: "Server=mssql;Database=vms;User=sa;Password=abcdef123paSSorwd;MultipleActiveResultSets=true"
 
   ingress:
     enabled: false
@@ -37,6 +37,7 @@ visitor-management:
 
 mssql:
   enabled: true
+  sapassword: abcdef123paSSorwd
   acceptEula:
     value: "Y"
   edition:
