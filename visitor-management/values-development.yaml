@@ -10,4 +10,4 @@ visitor-management:
         name: http
 
     hosts:
-      - vms-dev.internal.napbiotec.io
+      - temp.internal.napbiotec.io # will change to vms-dev-visitor-management
