@@ -25,3 +25,12 @@ visitor-management:
         targetPort: 80
         protocol: TCP
         name: http
+
+mssql:
+  enabled: true
+  acceptEula:
+    value: "Y"
+  edition:
+    value: Developer
+  persistence:
+    enabled: "true"
