@@ -24,6 +24,12 @@ visitor-management:
       - name: ConnectionStrings__DefaultConnection
         value: "Server=mssql;Database=vms;User=sa;Password=a39OdPSbIya1OqocSCOr;MultipleActiveResultSets=true"
 
+      - name: ASPNETCORE_Kestrel__Certificates__Default__Password
+        value: "no-worry-for-this"
+
+      - name: ASPNETCORE_Kestrel__Certificates__Default__Path
+        value: "/root/.aspnet/https/vms.pfx"
+
   ingress:
     enabled: false
 
